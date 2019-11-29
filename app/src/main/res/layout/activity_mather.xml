@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".model.NapolyonActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="57dp"
+        android:layout_height="46dp"
+        android:background="@drawable/back"
+        android:src="@drawable/back"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/btn_nabo"
+        android:layout_width="611dp"
+        android:layout_height="254dp"
+        android:src="@drawable/img06"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-114dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="272dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="212dp"
+        android:text="dr david j. schwartz"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_nabo" />
+
+    <TextView
+        android:padding="12dp"
+        android:layout_width="375dp"
+        android:layout_height="381dp"
+        android:text="Mother Teresa Day (Dita e Nënë Terezës), 19 October, is a public holiday in Albania. In 2009 the Memorial House of Mother Teresa was opened in her hometown of Skopje, North Macedonia. The Roman Catholic cathedral in Pristina, Kosovo, is named in her honour. .  "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="18dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_nabo"
+        app:layout_constraintVertical_bias="0.142" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

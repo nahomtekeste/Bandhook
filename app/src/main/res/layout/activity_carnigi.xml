@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".model.NapolyonActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="57dp"
+        android:layout_height="46dp"
+        android:background="@drawable/back"
+        android:src="@drawable/back"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/btn_nabo"
+        android:layout_width="582dp"
+        android:layout_height="251dp"
+        android:src="@drawable/img01"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-86dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="272dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="212dp"
+        android:text="Andrew Carnegie"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_nabo" />
+
+    <TextView
+        android:padding="12dp"
+        android:layout_width="375dp"
+        android:layout_height="381dp"
+        android:text="Andrew Carnegie, Scottish-born American industrialist who led the expansion of the American steel industry in the late 19th century. He was also one of the most important philanthropists of his era. Learn more about how Carnegie made his fortune and about his vast philanthropic activities.  "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="18dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_nabo"
+        app:layout_constraintVertical_bias="0.142" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
